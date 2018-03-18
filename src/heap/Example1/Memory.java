@@ -1,4 +1,4 @@
-package heap;
+package heap.Example1;
 
 public class Memory {
 	public static void main(String[] args) { // Line 1
