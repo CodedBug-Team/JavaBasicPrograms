@@ -1,0 +1,10 @@
+Static Keyword: Static is a keyword which can be use before any Variable, Method and Block of code.
+Use Case:
+-> it is use when there is no need of allocating memory to each instance of any variable.
+-> memory assign to static variable only once and each operation for that variable replace the previous value again and again.
+
+In our example there is two variable one is with static keyword(count1) and another is without static keyword(count2).
+When we increment value of both variable then we can se that the value of count2 is start with its initial value when
+we create second object of the class but value of count1 is continue from its previous value instead of initial value.
+
+So we can say that while creating second object of the same class memory is again allocated to count 1, but not to count1.

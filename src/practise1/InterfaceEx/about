@@ -1,0 +1,10 @@
+Def: Interface is Any Service Requirement Specification.
+i.e. All the basic functionality and parameters, which is required in the application is defined in the
+interface.
+
+-> Whenever we are implementing an interface, it is complsory that implementation of every method belongs to
+    interface is required.
+
+-> If we are unable to implement each and every methods of interface the we have to define our class as abstract
+    class, then it is responsibilty of child class who extends that abstract class to implement remaining
+    methods.

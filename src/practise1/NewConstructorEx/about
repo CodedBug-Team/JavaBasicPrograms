@@ -1,0 +1,31 @@
+new is a keyword in java
+
+Use Case: to create new object of class
+
+Constructor
+Use case: to initialise the class object.
+
+-> In the given example we only created child class object but both parent and child class constructor is
+    executed.
+
+=> Child constructor and Parent Constructor
+->Whenever we create new object for child constructor then its parent's constructor will automatic executed but
+    their is no diffrent object will create for parent class. (See Hash Code in Example).
+
+->so we can say that constructor's job is to initialize the class object not to creating new object of the
+    class.
+
+=> Constructor in Abstract Class:
+-> Abstract class cannot be instantiated.
+-> Abstract Class can have constructors (if it can't instantiated then what is need of constructor ???)
+Ans: 1. The main objective of constructor in abstract class is to perform initialization of instance variable,
+    which are inherit from abstract class in child class.
+    2. Main objective of constructor in abstract class is CODE RE-USEABILITY.
+
+the classes which are extends with without constructor abstract class, we have to initiate abstract class's
+variable because its child class's responsibility to initiate abstract variables. If we have large nos of
+variables in abstract class and large no of child class who extend that abstract class at that time our
+code become to large.
+So we use constructor in Abstract class, because if we make constructor then its constructor's responsibility
+to initialize the variables.
+

@@ -1,0 +1,9 @@
+Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+It can have abstract and non-abstract methods.
+It needs to be extended and its method implemented.
+It cannot be instantiated.
+
+It can have constructors (if it can't instantiated then what is need of constructor ???)
+Ans: 1. The main objective of constructor in abstract class is to perform initialization of instance variable,
+    which are inherit from abstract class in child class.
+    2. Main objective of constructor in abstract class is CODE RE-USEABILITY.

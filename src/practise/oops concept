@@ -1,0 +1,26 @@
+                                Data Hiding
+it would not possible to access internal data of anyone even if we are validate to do that.
+firstly validation is done then authentication.
+eg. if we are valid customer to bank still we can not access another person's bank account details.
+Advantage : security
+But how will we do that?
+Ans: By making data member private.
+                                 Abstraction
+Hiding Internal implementation and highlighting services.
+eg 1. while driving a car we do not have to know how all functions are getting implemented.we only get to know task getting implement.
+   2. when we use ATM then we don't need get into the internal process but only task to get done.
+Advantage : Security
+ease of enhancement : like we can change  internally without affecting end user task.
+ But how will we do that?
+ Ans: by using Abstract keyword
+ Abstraction is all about partial implentation.
+ Concrete class is ready to use (full implementation)
+ Interface is all about plan no implementation is done here.
+                        About Constructor
+  constructor name wil be same as class name.
+  It would not have a return type.
+  when an object is created constructor would be called automatically.
+  when we are creating more than one constructor then as we can not change the name of it by the rules of it but can change parameters.
+Encapsulation is data hiding(information hiding) while Abstraction is detail hiding(implementation hiding).
+encapsulation groups together data and methods that act upon the data, data abstraction deals with exposing the interface to the user and hiding the details of implementation.le encapsulation groups together data and methods that act upon the data, data abstraction deals with exposing the interface to the user and hiding the details of implementation.
+In java,method signature consists name,arguments but in cpp it also consists return type,access modifiers.

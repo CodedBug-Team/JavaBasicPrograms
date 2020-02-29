@@ -1,0 +1,17 @@
+Use Cases:
+
+Class :     Collections of objects like methods, variables.
+Object:     Instance of a Class.
+Packages:   Packages are used to store the relative files together.
+Interface:  Interface is used to define key methods, and variables.
+
+OOPs
+
+    WHO ?                     WHAT ?                                                           WHY ?
+
+1. Inheritance:     acquiring properties of its parent Class.                           CODE RE-USEABILITY
+2. Polymorphism:    one task is performed in different ways.                            FLEXIBILITY
+                    (method overloading and method overriding)
+3. Abstraction:     Hiding internal details and showing functionality                   SECURITY
+4. Encapsulation:   Binding (or wrapping) code and data together into a single unit
+                    (eg. Classes, methods, labels, package etc.)                        SECURITY

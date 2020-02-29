@@ -1,0 +1,13 @@
+Que:1 Why do we need constructor?
+Ans: Constructor initialises the variables.this is the first method invked when we create an onject.
+Que:2 are objects and variables same?
+Ans: No,variables refer to objects.
+onjects possess;
+knows something
+does  something
+eg:A phone;it's color logo and model name can be known they will be treated as variables and it's functions will be known as methods.
+Que:3 what is use of this keyword in java?
+Ans: it is a reference variable which refers to current object.
+it refers to instance variable of current class.
+it can be used to invoke current class.
+Instance variable: A variable which is defined inside the class but outside the method.
