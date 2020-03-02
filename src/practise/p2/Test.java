@@ -1,5 +1,7 @@
 package practise.p2;//creating second package
-import p1.*;
+
+import practise.p1.Program;
+
 class Test
 {
     public static void main(String args[])

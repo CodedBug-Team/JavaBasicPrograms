@@ -1,6 +1,6 @@
 package finalMethod;
 class XYZ{  
-   final void demo(){
+   void demo(){
       System.out.println("XYZ Class Method");
    }  
 }  
