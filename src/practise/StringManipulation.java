@@ -8,7 +8,7 @@ public class StringManipulation {private void arrangeString(String string){
             if (i == string.length()-1) {
 
                // Log.d(TAG, "arrangeString: iffffff");
-                newString = swap(string, i, string.length()-1);
+                newString = swap(string, i, 1);
             }else if(newString.charAt(0) == newString.charAt(i)){
                 //Log.d(TAG, "arrangeString: else if");
                 newString = swap(string, i+2, 0);

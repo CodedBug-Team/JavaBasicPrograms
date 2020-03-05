@@ -18,9 +18,12 @@ ease of enhancement : like we can change  internally without affecting end user 
  Interface is all about plan no implementation is done here.
                         About Constructor
   constructor name wil be same as class name.
+
   It would not have a return type.
+
   when an object is created constructor would be called automatically.
   when we are creating more than one constructor then as we can not change the name of it by the rules of it but can change parameters.
 Encapsulation is data hiding(information hiding) while Abstraction is detail hiding(implementation hiding).
 encapsulation groups together data and methods that act upon the data, data abstraction deals with exposing the interface to the user and hiding the details of implementation.le encapsulation groups together data and methods that act upon the data, data abstraction deals with exposing the interface to the user and hiding the details of implementation.
 In java,method signature consists name,arguments but in cpp it also consists return type,access modifiers.
+.there is no need to initialisation everytime when once it is done.
